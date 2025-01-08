@@ -1,7 +1,7 @@
 # FastAPI User Management API
 This is a simple API built with FastAPI to manage user information. It provides endpoints to create, read, update, delete users, and find user matches based on specific criteria.
 
-![fasapi project](./Public/FastAPIProject.png)
+![fasapi project](./Public/serverarch.png)
 
 ## Features
 - User creation with email validation.
@@ -73,6 +73,10 @@ The app is pre-configured to use SQLite with the file test.db in the project dir
   - `test.bd`
 
 ![testdb](./Public/testDbImage.png)
+
+The Entity-Relation diagram for user  :
+
+![ERD User](./Public/ERD.png)
 
 ## Running the Application
 To run the FastAPI app, Open the terminal and run the following command:
@@ -184,6 +188,9 @@ The application will start on `http://127.0.0.1:8000`.
 - **Response**: List of users matching the criteria.
 
 ![matchuser](./Public/userMatch.png)
+
+##### Flow Diagram for controllers are (Schemas diagram)
+![Scehma Diagrma](./Public/ERDcontrollers.png)
 
 ## Example Requests
 ### Create User
