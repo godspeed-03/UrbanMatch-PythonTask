@@ -38,21 +38,21 @@ cd UrbanMatch-PythonTask
 ### File - Folder structure
 The file folder structure is as follows
 - UrbanMatch-PythonTask
-  - **Public** : Folder for storing assests and media files
-  - `databse.py` : File consoting databse configuration code
-  - `main.py` : Main file for server and all controllers
-  - `models.py` : File containing model for user
-  - `schemas.py` : File containing schemas for dfferent controller with `SQLAlchemy`
+  - **Public**: Folder for storing assets and media files
+  - `databse.py`: File consisting of database configuration code
+  - `main.py`: Main file for server and all controllers
+  - `models.py`: File containing model for user
+  - `schemas.py`: File containing schemas for a different controller with `SQLAlchemy`
 
 
 #### Install the dependencies:
 
-##### Create a virtual enviroment fo the packages and add that to the source
+##### Create a virtual environment for the packages and add that to the source
 
 ```bash
 python -m venv venv
 ```
-##### Install all dependency from txt fle
+##### Install all dependencies from txt file
 ``` bash
 
 pip install -r requirements.txt
@@ -61,7 +61,7 @@ pip install -r requirements.txt
 ## Database Setup
 The project uses `SQLAlchemy` for ORM and `SQLite` by default.
 ## SQLite Configuration
-The app is pre-configured to use SQLite with the file test.db in the project directory. You jsut need to create a `test.db` file in you root repo.
+The app is pre-configured to use SQLite with the file test.db in the project directory. You must create a `test.db` file in your root repo.
 - `UrbanMatch-PythonTask`
   - `test.bd`
 
@@ -87,7 +87,7 @@ The application will start on `http://127.0.0.1:8000`.
 
 # Endpoints
 
-#### 0. Server running reponse
+#### 0. Server running response
 - **URL**: `/`
 - **Method**: `GET`
 - **Body**:
@@ -96,7 +96,7 @@ The application will start on `http://127.0.0.1:8000`.
   "message": "Hello World"
 }
 ```
-- **Response**: Returns the response Hello worls to confirm server status.
+- **Response**: Returns the response Hello world to confirm server status.
 
 
 #### 1. Create a User
@@ -146,7 +146,7 @@ The application will start on `http://127.0.0.1:8000`.
   "gender": "Male",
   "email": "johnupdated@example.com",
   "city": "Los Angeles",
-  "interests": ["coding", "traveling"]
+  "interests": ["coding", "travelling"]
 }
 ```
 - **Response**: The updated user details.
@@ -207,7 +207,7 @@ curl -X 'PUT' \
   "gender": "Female",
   "email": "janesmith@example.com",
   "city": "San Francisco",
-  "interests": ["coding", "traveling"]
+  "interests": ["coding", "travelling"]
 }'
 ```
 
@@ -219,4 +219,4 @@ In this project, we developed a `FastAPI` application with `SQLAlchemy` to manag
 - **Database Setup**: Integrated SQLAlchemy with SQLite.
 - **User Management**: Implemented user CRUD operations.
 - **Matching System**: Users can find others based on specific filters.
-- **Validation & Error Handling**: Used Pydantic models for validation and proper error handling.
+- **Validation & Error Handling**: Pydantic models were used for validation and proper error handling.
