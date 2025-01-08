@@ -52,6 +52,12 @@ The file folder structure is as follows
 ```bash
 python -m venv venv
 ```
+
+##### Add enviroment to your source
+```bash
+source venv/bin/activate
+```
+- For more : https://fastapi.tiangolo.com/virtual-environments/
 ##### Install all dependencies from txt file
 ``` bash
 
@@ -75,9 +81,11 @@ To run the FastAPI app, Open the terminal and run the following command:
 fastapi dev main.py
 
 ```
+![server running](./Public/server.png)
+
 The application will start on `http://127.0.0.1:8000`.
 
-![server status]()
+![server status](./Public/serverstatus.png)
 
 ## Access the API Documentation:
 
