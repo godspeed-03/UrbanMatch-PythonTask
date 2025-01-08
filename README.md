@@ -35,7 +35,7 @@ cd UrbanMatch-PythonTask
 
 ```
 
-### File - Folder structure
+## File - Folder structure
 The file folder structure is as follows
 - UrbanMatch-PythonTask
   - **Public**: Folder for storing assets and media files
@@ -45,7 +45,7 @@ The file folder structure is as follows
   - `schemas.py`: File containing schemas for a different controller with `SQLAlchemy`
 
 
-#### Install the dependencies:
+## Install the dependencies:
 
 ##### Create a virtual environment for the packages and add that to the source
 
@@ -58,6 +58,7 @@ python -m venv venv
 source venv/bin/activate
 ```
 - For more : https://fastapi.tiangolo.com/virtual-environments/
+
 ##### Install all dependencies from txt file
 ``` bash
 
